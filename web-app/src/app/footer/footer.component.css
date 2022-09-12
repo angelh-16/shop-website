@@ -1,0 +1,62 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .logo{
+    margin-bottom: 30px;
+  }
+  
+ h6{
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  
+ h3{
+    font-size: 18px;
+    margin: 0 0 8px 0;
+  }
+  
+ a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #369;
+    margin-bottom: 10px;
+  }
+  
+ .follow{
+    margin-top: 20px;
+  }
+  
+.follow i{
+    color: #1c39a1;
+    padding-right: 4px;
+    cursor: pointer;
+  }
+  
+.install .row img{
+    border: 1px solid #1c39a1;
+    border-radius: 6px;
+  }
+  
+.install img{
+    margin: 10px 0 15px 0;
+  }
+  
+.follow i:hover,
+    a:hover{
+    color: #bf8aed;
+  }
+  
+.copyright{
+    width: 100%;
+    text-align: center;
+  }

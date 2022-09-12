@@ -1,0 +1,115 @@
+.box{
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+}
+
+.box-title{
+    color: #1c39a1;
+    font-size: 35px;
+}
+
+.center img{
+    height: 250px;
+    width: 250px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+h4{
+    font-size: 30px;
+    color: #1c39a1;
+    font-weight: 700;
+}
+
+h6{
+    font-size: 25px;
+    color: #1c39a1;
+    font-weight: 500;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+}
+
+.box-table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: none;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    background-clip: border-box;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+}
+
+
+.center.button{
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    font-weight:400;
+    padding: 12px 72px;
+    border-radius: 3px !important;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+table img{
+    width: 70px;
+}
+
+table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+
+table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+
+table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+table td:nth-child(4),
+table td:nth-child(5),
+table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+table thead{
+    border: 1px solid #ffffff;
+    border-left: none;
+    border-right: none;
+}
+
+table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+table thead tbody tr td{
+    padding-top: 15px;
+}
+
+table thead tbody td{
+    font-size:  13px;
+}
